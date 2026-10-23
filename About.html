@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>About Us | LŎR Restaurant</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="leaves" aria-hidden="true"></div>
+    <header>
+        <a class="logo" href="index.html" aria-label="LŎR Restaurant home"><b>LŎR</b><small>RESTAURANT</small></a>
+        <nav aria-label="Main">
+            <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="about.html" class="on">About Us</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+        </nav>
+        <div class="right"><a class="cart" href="order.html" aria-label="View order"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5" /><circle cx="18" cy="20" r="1.5" /><path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h9.3a1 1 0 0 0 1-.8L21 7H6" /></svg><span id="cc">0</span></a><a class="btn fill sm" href="reservation.html">Reservation</a></div>
+    </header>
+
+    <main>
+        <div class="page show">
+            <div class="two" style="padding-top:30px;align-items:center">
+                <div>
+                    <h2 class="hl">About Us</h2>
+                    <h3 class="serif" style="font-size:1.9rem;color:var(--gold);margin:30px 0 10px">More Than Just a Restaurant</h3>
+                    <p style="color:var(--mute)">At LŎR, we believe dining is more than a meal. It is an experience. We bring together exceptional cuisine, a warm atmosphere and genuine hospitality to create unforgettable moments for every guest.</p>
+                    <a class="btn fill" href="#exp">Our Story ↓</a>
+                </div>
+                <!-- VIDEO: change the link below to your video file -->
+                <div class="photo vid"><span class="play" aria-hidden="true">▶</span><video controls preload="metadata" poster="images/about-video.jpg">
+                        <source src="images/About.mp4" type="video/mp4">
+                    </video></div>
+            </div>
+            <div class="band" id="exp">
+                <h2 class="hl c">The LŎR Experience</h2>
+                <div class="grid">
+                    <div class="card"><div class="ic em">🌿</div><h3>Fresh Ingredients</h3><p>We use only the finest locally sourced ingredients</p></div>
+                    <div class="card"><div class="ic em">👨‍🍳</div><h3>Expert Chefs</h3><p>Our chefs bring passion and skill to every dish</p></div>
+                    <div class="card"><div class="ic em">🛎️</div><h3>Quality Service</h3><p>Your comfort and satisfaction are our top priority</p></div>
+                    <div class="card"><div class="ic em">❤️</div><h3>Made with Love</h3><p>Every meal is crafted with care and passion</p></div>
+                </div>
+            </div>
+            <h2 class="hl c" style="margin-top:50px">Master Chefs</h2>
+            <div class="chefs">
+                <div><div class="ic big avatar"><img src="images/jane sarah bangura.jpg" alt="Sarah Bangura"></div><p>Sarah Bangura</p></div>
+                <div><div class="ic big avatar"><img src="images/trevor samuels.jpg" alt="Trevor Samuels"></div><p>Trevor Samuels</p></div>
+                <div><div class="ic big avatar"><img src="images/gorden ramsy.jpg" alt="Gorden Ramsey"></div><p>Gorden Ramsey</p></div>
+                <div><div class="ic big avatar"><img src="images/bola ramsey.jpg" alt="Bola gorden"></div><p>Booby Flay</p></div>
+                <div><div class="ic big avatar"><img src="images/booby duflay.jpg" alt="Booby Duflay"></div><p>Edward Duflay</p></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div><a class="logo" href="index.html" style="text-align:left"><b style="font-size:2.8rem">LŎR</b><small>RESTAURANT</small></a>
+            <p class="serif" style="font-size:1.2rem;margin:10px 0 0">Food brings people together</p>
+            <div class="soc">
+                <a href="https://www.facebook.com/groups/668705151357452/" target="_blank" rel="noopener" aria-label="LŎR on Facebook">ⓕ</a>
+                <a href="https://www.instagram.com/lorrestaurant/" target="_blank" rel="noopener" aria-label="LŎR on Instagram">🅾</a>
+                <a href="https://www.tiktok.com/@lorrestaurant" target="_blank" rel="noopener" aria-label="LŎR on TikTok">ᕷ</a>
+            </div>
+        </div>
+        <div>
+            <h5>Quick links</h5>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Contact us</h5>
+            <ul>
+                <li>Phone: +232 75465837</li>
+                <li>Address: 32 Goldrich</li>
+                <li>Hours: 10:30 – 12:30, Mon–Sat</li>
+                <li>Email: bangssarah04@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <div id="toast" role="status"></div>
+    <script src="script.js"></script>
+</body>
+</html>

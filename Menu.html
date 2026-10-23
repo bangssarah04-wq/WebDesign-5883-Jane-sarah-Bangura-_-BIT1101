@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Menu | LŎR Restaurant</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="leaves" aria-hidden="true">
+        <i style="left:6%;width:20px;height:34px;animation-duration:22s;animation-delay:-3s;--dx:60px"></i>
+        <i style="left:18%;width:30px;height:50px;animation-duration:28s;animation-delay:-14s;--dx:-70px"></i>
+        <i style="left:30%;width:18px;height:30px;animation-duration:19s;animation-delay:-8s;--dx:40px"></i>
+        <i style="left:43%;width:26px;height:44px;animation-duration:25s;animation-delay:-20s;--dx:-50px"></i>
+        <i style="left:56%;width:22px;height:36px;animation-duration:30s;animation-delay:-6s;--dx:70px"></i>
+        <i style="left:68%;width:32px;height:54px;animation-duration:21s;animation-delay:-17s;--dx:-60px"></i>
+        <i style="left:80%;width:20px;height:32px;animation-duration:27s;animation-delay:-11s;--dx:50px"></i>
+        <i style="left:92%;width:28px;height:46px;animation-duration:24s;animation-delay:-2s;--dx:-40px"></i>
+    </div>
+    <header>
+        <a class="logo" href="index.html" aria-label="LŎR Restaurant home"><b>LŎR</b><small>RESTAURANT</small></a>
+        <nav aria-label="Main">
+            <a href="index.html">Home</a><a href="menu.html" class="on">Menu</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a>
+        </nav>
+        <div class="right"><a class="cart" href="order.html" aria-label="View order"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5" /><circle cx="18" cy="20" r="1.5" /><path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h9.3a1 1 0 0 0 1-.8L21 7H6" /></svg><span id="cc">0</span></a><a class="btn fill sm" href="reservation.html">Reservation</a></div>
+    </header>
+
+    <main>
+        <div class="page show">
+            <h1 class="ttl">Our Menu</h1>
+            <p class="sub">Explore our selection</p>
+            <div class="tabs">
+                <a class="tab on" href="#drinks">Drinks</a>
+                <a class="tab" href="#appetizers">Appetizers</a>
+                <a class="tab" href="#entrees">Entrées</a>
+                <a class="tab" href="#desserts">Desserts</a>
+            </div>
+
+            <h2 class="hl c" id="drinks" style="margin:30px 0 6px">Drinks</h2>
+            <p class="sub">Handcrafted cocktails · golden hour classics</p>
+            <div class="menu-wrap">
+                <div class="items">
+                    <div class="item"><div class="pic"><img src="images/cocktail.jpg" alt="Cocktail"></div><div class="info"><h4>Cocktail</h4><p>Gin, bitter orange, sweet vermouth, gold leaf</p><div class="row"><span class="pr">le 20</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/martini.jpg" alt="Mint martini"></div><div class="info"><h4>mint martini</h4><p>Vodka, cold espresso, coffee liqueur</p><div class="row"><span class="pr">le 150</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/juice.jpg" alt="Juice"></div><div class="info"><h4>Juice</h4><p>Tequila, grapefruit, lime over ice</p><div class="row"><span class="pr">le 260</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/water.jpg" alt="Sparkling water"></div><div class="info"><h4>sparling water</h4><p>Whiskey, lemon, saffron syrup, silky foam</p><div class="row"><span class="pr">le 60</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/alcohol.jpg" alt="Alcohol"></div><div class="info"><h4>alcohol</h4><p>Bourbon, bitters, dark cherry</p><div class="row"><span class="pr">le 500</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/citrus.jpg" alt="Citrus Spritz"></div><div class="info"><h4>Citrus Spritz</h4><p>Sparkling wine, orange, rosemary</p><div class="row"><span class="pr">le 460</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                </div>
+                <div class="feature">
+                    <div class="bigring"><img src="images/sig cocktail.jpg" alt="Signature cocktail"></div>
+                    <p>Signature cocktail</p>
+                </div>
+            </div>
+
+            <h2 class="hl c" id="appetizers" style="margin:30px 0 6px">Appetizers</h2>
+            <p class="sub">Handcrafted starters · small plates · perfect to share</p>
+            <div class="menu-wrap">
+                <div class="items">
+                    <div class="item"><div class="pic"><img src="images/eggs.jpg" alt="Arancini eggs"></div><div class="info"><h4>Arancini eggs</h4><p>Crispy risotto balls, black truffle, parmesan, saffron aioli</p><div class="row"><span class="pr">le 120</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/beef.jpg" alt="Beef Tartare"></div><div class="info"><h4>Beef Tartare</h4><p>Classic beef tartare, capers, shallot, dijon, parsley, crostini</p><div class="row"><span class="pr">le 150</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/burrata.jpg" alt="Burrata"></div><div class="info"><h4>Burrata</h4><p>Creamy burrata, roasted cherry tomatoes, basil pesto, toasted sourdough</p><div class="row"><span class="pr">le 110</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/seared.jpg" alt="Seared chicken"></div><div class="info"><h4>Seared chicken</h4><p>Garlic butter, lemon, fresh herbs</p><div class="row"><span class="pr">le 140</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                </div>
+                <div class="feature">
+                    <div class="bigring"><img src="images/cs.jpg" alt="Chef's starter"></div>
+                    <p>Chef's starter</p>
+                </div>
+            </div>
+
+            <h2 class="hl c" id="entrees" style="margin:30px 0 6px">Entrées</h2>
+            <p class="sub">Mains from the grill and the pan</p>
+            <div class="menu-wrap">
+                <div class="items">
+                    <div class="item"><div class="pic"><img src="images/rosemary.jpg" alt="Rosemary Filet"></div><div class="info"><h4>Rosemary Filet</h4><p>Grilled filet, rosemary, sea salt, pepper jus</p><div class="row"><span class="pr">le 350</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/fish.jpg" alt="Pan-Seared Fish"></div><div class="info"><h4>Pan-Seared Fish</h4><p>Crisp skin, lemon butter, seasonal greens</p><div class="row"><span class="pr">le 250</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/chicken.jpg" alt="Herb Roast Chicken"></div><div class="info"><h4>Herb Roast Chicken</h4><p>Half chicken, roasted vegetables, pan gravy</p><div class="row"><span class="pr">le 220</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/risotto.jpg" alt="Saffron Risotto"></div><div class="info"><h4>Saffron Risotto</h4><p>Creamy arborio rice, parmesan, saffron</p><div class="row"><span class="pr">le 200</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                </div>
+                <div class="feature">
+                    <div class="bigring"><img src="images/signiture steak dish.jpg" alt="Signature steak"></div>
+                    <p>Signature steak</p>
+                </div>
+            </div>
+
+            <h2 class="hl c" id="desserts" style="margin:30px 0 6px">Desserts</h2>
+            <p class="sub">Crafted sweet treats · indulge in our signature desserts</p>
+            <div class="menu-wrap">
+                <div class="items">
+                    <div class="item"><div class="pic"><img src="images/chocolate.jpg" alt="Chocolate Fondant"></div><div class="info"><h4>Chocolate Fondant</h4><p>Warm chocolate center, vanilla ice cream, dusted cocoa</p><div class="row"><span class="pr">le 120</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/creme.jpg" alt="Crème Brûlée"></div><div class="info"><h4>Crème Brûlée</h4><p>Vanilla bean, crunchy caramel crust, fresh berries</p><div class="row"><span class="pr">le 110</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/tiramisu.jpg" alt="Tiramisu"></div><div class="info"><h4>Tiramisu</h4><p>Espresso, mascarpone, cocoa dusting</p><div class="row"><span class="pr">le 100</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                    <div class="item"><div class="pic"><img src="images/ice cream.jpg" alt="Chocolate Ice Cream"></div><div class="info"><h4>Chocolate Ice Cream</h4><p>Dark chocolate, chocolate chips, whipped cream</p><div class="row"><span class="pr">le 90</span><span class="qty"><button aria-label="Less">−</button><b>1</b><button aria-label="More">+</button></span><button class="btn sm fill">Add</button></div></div></div>
+                </div>
+                <div class="feature">
+                    <div class="bigring"><img src="images/cd.jpg" alt="Chef's dessert"></div>
+                    <p>Chef's dessert</p>
+                </div>
+            </div>
+
+            <div class="bar">
+                <div><b>0 items</b> in your order</div>
+                <div>Subtotal <b>le 0</b></div><a class="btn fill sm" href="order.html">Proceed to order →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div><a class="logo" href="index.html" style="text-align:left"><b style="font-size:2.8rem">LŎR</b><small>RESTAURANT</small></a>
+            <p class="serif" style="font-size:1.2rem;margin:10px 0 0">Food brings people together</p>
+            <div class="soc">
+                <a href="https://www.facebook.com/groups/668705151357452/" target="_blank" rel="noopener" aria-label="LŎR on Facebook">ⓕ</a>
+                <a href="https://www.instagram.com/lorrestaurant/" target="_blank" rel="noopener" aria-label="LŎR on Instagram">🅾</a>
+                <a href="https://www.tiktok.com/@lorrestaurant" target="_blank" rel="noopener" aria-label="LŎR on TikTok">ᕷ</a>
+            </div>
+        </div>
+        <div>
+            <h5>Quick links</h5>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Contact us</h5>
+            <ul>
+                <li>Phone: +232 75465837</li>
+                <li>Address: 32 Goldrich</li>
+                <li>Hours: 10:30 – 12:30, Mon–Sat</li>
+                <li>Email: bangssarah04@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
